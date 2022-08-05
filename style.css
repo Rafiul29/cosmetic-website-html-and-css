@@ -10,7 +10,7 @@
   --color-bg-2: #EEEEEE;
   --card-padding: 1.2rem;
   --border-radius: 0.8rem;
-  --transition: all 0.3s ease-in-out;
+  --transition: all 0.5s ease-in-out;
 }
 
 * {
@@ -236,8 +236,13 @@ header .header-container .header-text {
 
 .growth-containers .growth h2 {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
+.growth-containers .growth h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
 
 /* collection */
 .collections-container {
@@ -367,7 +372,7 @@ header .header-container .header-text {
 
 .browser-container .browser-item {
   width: 100%;
-  height: 40rem;
+  height: 45rem;
   padding: var(--card-padding);
   border-radius: var(--border-radius);
   background-color: var(--color-light-bg);
@@ -402,15 +407,16 @@ header .header-container .header-text {
 
 .browser-container .browser-item .btn-browser {
   margin-top: 2rem;
+  padding: 0.8rem 2rem;
   border: 2px solid black;
   transition: var(--transition);
-  opacity: 1;
+  
 
 }
 
 .browser-container .browser-item .btn-browser:hover {
   color: var(--color-light);
-  background-color: var(--color-primary);
+  background-color: #000000;
   border: 2px solid black;
 }
 
@@ -476,8 +482,8 @@ header .header-container .header-text {
 
 .contact-container .contact-left  .contact-btn:hover{
   color: var(--color-light);
-  background-color: var(--color-primary);
-  border: 2px solid var(--color-primary-variant);
+  background-color: #000000;
+  
 }
 
 
